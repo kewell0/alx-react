@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  color: #e0354b;
+  border-bottom: 3px solid #e0354b;
+}
+
+.App-logo {
+  width: 120px;
+}
+
+.App-body {
+  margin: 1.2rem 0 0 2.5rem;
+  min-height: 320px;
+}
+
+.App-footer {
+  min-height: 60px;
+  border-top: 3px solid #e0354b;
+  text-align: center;
+  font-style: italic;
+}
+
+.App form {
+  display: flex;
+  gap: .6rem;
+}
