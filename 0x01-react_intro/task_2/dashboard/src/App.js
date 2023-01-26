@@ -1,4 +1,4 @@
-import logo from './logo.jpg';
+import logo from './Holberton Logo.jpg';
 import './App.css';
 import { getFullYear, getFooterCopy } from './utils';
 
@@ -27,6 +27,7 @@ function App() {
         </p>
       </div>
     </div>
+    
   );
 }
 
