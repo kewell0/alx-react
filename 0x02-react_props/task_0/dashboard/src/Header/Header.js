@@ -1,7 +1,7 @@
-import logo from '../assets/Holberton Logo.jpg';
+import logo from '../assets/logo.jpg';
 import './Header.css';
 
-function Header() {
+function Header(props) {
     return (
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
